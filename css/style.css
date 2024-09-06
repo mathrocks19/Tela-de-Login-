@@ -1,0 +1,64 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url();
+}
+
+h1{
+    color: rgb(30, 79, 241);
+    font-size: 42px;
+    
+}
+
+.container{
+    width: 250px;
+    border: 1px solid #dad7d7;
+    margin: auto;
+    margin-top: 250px;
+    padding: 25px;
+    display: table;
+    
+    
+}
+
+#tituloLogin{
+    text-align: center;
+}
+
+
+input{
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input:focus{
+    border: 2px solid blue;
+
+}
+
+#btn-entrar{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: blue;
+    color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#grupo{ 
+    text-align: start;
+    margin-bottom: 10px;
+
+}
+
+#link-esqueciSenha{
+    color: blueviolet;
+    text-decoration: none;
+    float: right;
+    
+}
